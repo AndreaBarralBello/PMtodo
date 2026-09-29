@@ -43,13 +43,12 @@ public class rvTareasAdaptador extends RecyclerView.Adapter <rvTareasAdaptador.V
         Button btnRealizada;
         Button btnBorrar;
 
-        public ViewHolder(@NonNull View itemView){
 
             super (itemView);
             tvMitarea = itemView.findViewById(R.id.tvMiTarea);
-            btnRealizada = itemView.findViewById(R.id.
-                    btnAcceder = itemView.findViewById(R.id)
-        }
+            btnRealizada = itemView.findViewById(R.id.btnRealizada);
+            btnAcceder = itemView.findViewById(R.id.btnBorrar);
+
     }
 
 }
