@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnIniciar;
+    Button btnAcceder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btnIniciar = findViewById(R.id.btnIniciar);
+        btnAcceder = findViewById(R.id.btnAcceder);
 
-        btnIniciar.setOnClickListener(new View.OnClickListener() {
+        btnAcceder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //enlazamos con la otra ventana, u otra app
