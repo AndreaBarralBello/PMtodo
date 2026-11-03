@@ -2,16 +2,17 @@ package com.example.todo;
 
 public class Tarea {
 
-    String nombre;
+    private String nombre;
+    private boolean realizada;
 
-    boolean realiazada;
-
-    public Tarea() {
+    public Tarea(String nombre) {
+        this.nombre = nombre;
+        this.realizada = false;
     }
 
-    public Tarea(String nombre, boolean realiazada) {
+    public Tarea(String nombre, boolean realizada) {
         this.nombre = nombre;
-        this.realiazada = realiazada;
+        this.realizada = realizada;
     }
 
     public String getNombre() {
@@ -22,11 +23,11 @@ public class Tarea {
         this.nombre = nombre;
     }
 
-    public boolean isRealiazada() {
-        return realiazada;
+    public boolean isRealizada() {
+        return realizada;
     }
 
-    public void setRealiazada(boolean realiazada) {
-        this.realiazada = realiazada;
+    public void setRealizada(boolean realizada) {
+        this.realizada = realizada;
     }
 }
